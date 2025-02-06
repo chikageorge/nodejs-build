@@ -5,12 +5,13 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm install",
+    "build":"npm install",
+    
   },
   "author": "Andrea Ahom",
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.2",
-    "mocha": "^10.2.0"
+    "mocha": "^11.1.0"
   }
 }
