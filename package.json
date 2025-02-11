@@ -4,14 +4,19 @@
   "description": "A simple Node.js project",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": ""
+    "test": "mocha",
+    "start": "node server.js",
+    "build": "webpack --config webpack.config.js"
   },
   "author": "Andrea Ahom",
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.2",
-    "mocha": "^11.1.0"
+    "mocha": "^11.1.0",
+    "chai": "^4.3.4"
+  },
+  "devDependencies": {
+    "webpack": "^5.64.0",
+    "webpack-cli": "^4.9.1"
   }
 }
-
