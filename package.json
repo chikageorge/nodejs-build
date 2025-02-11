@@ -1,12 +1,12 @@
 {
-  "name": "nodejswebapp",
+  "name": "nodejswebapp"
   "version": "1.0.0",
   "description": "A simple Node js project",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
  "build":
-  }
+  },
   "author": "Andrea Ahom",
   "license": "ISC",
   "dependencies": {
